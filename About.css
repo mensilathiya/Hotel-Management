@@ -2011,15 +2011,24 @@ margin-left: 30px !important;
      font-size: 15px !important;
   }
   .aimage{
-     margin-left: 20px !important;
-     width:280px ;
-     height: 200px;
+     /* margin-left: 20px !important; */
+     /* width:280px ; */
+     width: 290px !important;
+     height: 300px !important
+     /* height: 200px; */
   }
   .box{
     margin-left: 20px !important;
     width: 280px !important;
     margin-top: 30px !important;
     height: 150px;
+ }
+ .button{
+  width: 35px;
+  height: 35px;
+ }
+ .icon2{
+  margin-top: 10px !important;
  }
  .box1{
     margin-left: 20px !important;
