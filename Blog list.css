@@ -518,6 +518,51 @@ color: #d19b54;
   }
  
 }
+@media screen  and (max-width:1115px){
+  .bg1{
+   margin-left: 20px !important;
+   width: 500px !important;
+  }
+  .card{
+   width: 500px !important;
+  }
+  .btext4{
+   font-size: 13px !important;
+   padding-right: 40px;
+  }
+  /* .bx4{
+   width: 400px !important;
+  }
+  .btext12{
+   font-size: 15px;
+  } */
+  .hotal{
+   height: 180px;
+   width: 180px;
+  }
+  .hotal1{
+   height: 180px;
+   width: 180px;
+ 
+  }
+  .hotal2{
+   margin-right: 80px !important;
+   font-size: 12px !important;
+  }
+  .page-item{
+   margin-left: 15px !important;
+  }
+  input[type="text"], input[type="email"], textarea {
+   width: 90% !important;
+  }
+  input[type="submit"]{
+   width: 90% !important;
+  }
+  .bg2{
+   margin-left: 40px !important;
+   width: 400px !important;
+  }
+ }
 @media screen  and (max-width:1024px){
  .bg1{
   margin-left: 40px;

@@ -383,6 +383,31 @@ footer{
         margin-left: 60px !important;
     }
 }
+
+@media screen  and (max-width:1114px){
+    .Gallery{
+        margin-left: 150px !important;
+        width: 250px !important;
+    }
+    .Gallery1{
+        margin-right:50px !important;
+        margin-left: 20px;
+    }
+    .Gallery2{
+        margin-left: 170px !important;
+    }
+    .Gallery4{
+        margin-right:50px !important;
+        margin-left: 20px;
+    }
+    
+    .g1{
+        margin-left: 170px !important;
+    }
+    .g4{
+        margin-left: 60px !important;
+    }
+}
 @media screen  and (max-width:1024px){
     .Gallery{
         margin-left: 50px !important;
