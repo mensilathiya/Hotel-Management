@@ -237,6 +237,10 @@ cursor: pointer;
     text-align: justify;
     
 }
+.error{
+  color: red;
+  padding-left: 20px !important;
+}
 .page-item{
     margin-left: 20px !important;
     border: 2px solid #DBA765;
