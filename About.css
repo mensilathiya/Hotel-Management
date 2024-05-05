@@ -647,12 +647,9 @@ left: 0;
 bottom: 0;
 height: 40px;
 width: 280px;
-transition-duration: 2s !important;
-transition-timing-function: ease-in-out !important;
+
 }
-.abs:hover{
-transform: rotate(360deg) !important;
-}
+
 .atext15{
 color: white;
 text-align: center;
@@ -965,7 +962,7 @@ padding-left: 480px !important;
 margin-left: 160px !important;
 }
 }
-@media screen  and (max-width:1024px){
+@media screen  and (max-width:1025px){
 .atext{
   padding-left:450px !important;
 }
@@ -1053,7 +1050,10 @@ margin-left:40px;
 margin-left: 10px;
 }
 .service1{
-margin-left: 20px !important;
+ margin-left: 60px !important;
+}
+.service2{
+  display: none;
 }
 .atext10{
 font-size: 30px !important;
@@ -1213,8 +1213,13 @@ margin-left: 80px !important;
   width: 350px !important;
 }
 .service1{
+ 
   width: 350px !important;
   margin-left: 50px !important;
+}
+.service2{
+  display: block !important;
+  margin-left: 80px !important;
 }
 .service3{
   display: none;
@@ -1280,8 +1285,13 @@ margin-left: 80px !important;
   margin-top: 40px !important;
 }
 .service1{
+ 
   margin-left: 40px !important;
   width: 350px !important;
+}
+.service2{
+  display: block !important;
+  margin-left: 70px !important;
 }
 .service3{
   display:none;
@@ -1452,26 +1462,21 @@ margin-left: 80px !important;
     display: none;
  }
  .service{
-  height: 880px !important;
+  height: 500px !important;
+
  }
  .service1{
   margin-left: 40px !important;
-  width: 650px !important;
+  width: 500px !important;
   margin-top: 50px !important;
  
   height: 350px;
 }
 .service2{
-  width:350px;
-  margin-top:0px !important;
-  margin-left: 40px !important;
+  display: none !important;
 }
-.service3{
-  width:350px;
-  margin-top:0px !important;
-  margin-left: 60px !important;
-  display: block !important;
-}
+
+
 .atext10{
   font-size: 40px !important;
 }

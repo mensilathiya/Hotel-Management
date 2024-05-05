@@ -156,19 +156,15 @@ nav ul li ul li a:hover {
 .s{
 margin-top: 100px !important;
 height: 350px;
-background-color: #050404;
-margin-left: 200px;
-width: 550px !important;
-background-image: url('./images/m2.jpg');
-background-size: cover;
-background-repeat: no-repeat;
+background-color: #000000;
+margin-left: 230px !important;
 }
 .s1{
   margin-top: 100px !important;
   height: 350px;
   background-color: #f6efef;
-  width: 550px !important;
 
+ 
 }
 .stext{
 color: #DBA765;
@@ -210,55 +206,49 @@ font-family: sans-serif;
   margin-top: 0px !important;
   height: 350px;
   background-color:#f6efef;
-  margin-left: 200px;
-  width: 550px !important;
+  margin-left: 230px;
+
  
 }
 .s2{
   margin-top: 0px !important;
   height: 350px;
-  background-color: #000000;
-  width: 550px !important;
-  background-image: url('./images/m7.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 .s4{
 
   height: 350px;
-  background-color: #050404;
-  margin-left: 200px;
-  width: 550px !important;
-  background-image: url('./images/fit.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+
+  margin-left: 230px !important;
+
+  
 }
 .s5{
   margin-top:0px !important;
   height: 350px;
   background-color: #f6efef;
-  width: 550px !important;
+ 
 }
 .s6{
   margin-top: 0px !important;
   height: 350px;
   background-color:#f6efef;
-  margin-left: 200px;
-  width: 550px !important;
+  margin-left: 230px !important;
+
  
 }
 .s7{
   margin-top: 0px !important;
   height: 350px;
-  background-color: #000000;
-  width: 550px !important;
-  background-image: url('./images/m3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+
+
 }
-.bu:hover{
-  background-color: black;
+.image{
+  width: 505px !important;
+  height: 350px !important;
+  margin-left: -12px !important;
 }
+
 .bi-stopwatch {
   margin-left: 30px !important;
 }
@@ -421,28 +411,28 @@ text-align: center;
   
 @media screen  and (max-width:1280px){
 .s{
-   margin-left: 150px !important;
+   margin-left: 100px !important;
    width: 500px !important;
 }
 .s1{
-    width: 500px !important;
+    width: 505px !important;
 }
 .s3{
-   margin-left: 150px !important;
+   margin-left: 100px !important;
     width: 500px !important;
 }
 .s2{
     width: 500px !important;
 }
 .s4{
-   margin-left: 150px !important;
+   margin-left: 100px !important;
     width: 500px !important;
 }
 .s5{
-    width: 500px !important;
+  width: 505px !important;
 }
 .s6{
-   margin-left: 150px !important;
+   margin-left: 100px !important;
     width: 500px !important;
 }
 .s7{
@@ -458,31 +448,33 @@ text-align: center;
 
 }
 
-@media screen  and (max-width:1024px){
+@media screen  and (max-width:1025px){
   .s{
-     margin-left: 10px !important;
+     margin-left: 0px !important;
      width: 490px !important;
   }
   .s1{
     margin-left: 0px !important;
-    width: 490px !important;
+    width: 515px !important;
   }
   .s3{
-     margin-left: 10px !important;
+     margin-left: 0px !important;
      width: 490px !important;
   }
   .s2{
-    width: 490px !important;
+    width: 450px !important;
+ 
   }
   .s4{
-     margin-left: 10px !important;
-     width: 490px !important;
+     margin-left: 0px !important;
+   
+     width: 515px !important;
   }
   .s5{
     width: 490px !important;
   }
   .s6{
-     margin-left: 10px !important;
+     margin-left: 0px !important;
      width: 490px !important;
   }
   .s7{
@@ -495,7 +487,11 @@ text-align: center;
   .icon9{
       margin-left: 10px;
   }
-  
+  .image{
+    width: 520px !important;
+    height: 350px !important;
+    margin-left: -12px !important;
+  }
  }
  @media screen  and (max-width:915px){
   .s{
@@ -555,7 +551,11 @@ text-align: center;
    .bu{
     margin-top: 20px !important;
    }
-
+   .image{
+    width: 550px !important;
+    height: 300px !important;
+    margin-left: -12px !important;
+  }
  }
  @media screen  and (max-width:855px){
   .s{
@@ -672,52 +672,56 @@ text-align: center;
     .icon9{
       display: none;
    }
-   
+   .image{
+    width: 550px !important;
+    height: 300px !important;
+    margin-left: -12px !important;
+  }
 
  }
  @media screen  and (max-width:768px){
   .s{
-     margin-left: 120px !important;
-     width: 550px !important;
+     margin-left: 80px !important;
+     width: 450px !important;
      height: 300px !important;
   }
   .s1{
-      margin-left: 120px !important;
-     width: 550px !important;
+      margin-left: 80px !important;
+      width: 450px !important;
      height: 320px !important;
      margin-top: 0px !important;
   }
   .s3{
-      margin-left: 120px !important;
-      width: 550px !important;
+      margin-left: 80px !important;
+      width: 450px !important;
       height: 320px !important;
       margin-top: 40px !important;
   }
   .s2{
-      margin-left: 120px !important;
-     width: 550px !important;
+      margin-left: 80px !important;
+      width: 450px !important;
      height: 300px !important;
   }
   .s4{
-      margin-left: 120px !important;
-     width: 550px !important;
+      margin-left: 80px !important;
+      width: 450px !important;
      height: 300px !important;
      margin-top: 40px !important;
   }
   .s5{
-      margin-left: 120px !important;
-     width: 550px !important;
-     height: 320px !important;
+      margin-left: 80px !important;
+      height: 320px !important;
+      width: 450px !important;
   }
   .s6{
-      margin-left: 120px !important;
-     width: 550px !important;
+      margin-left: 80px !important;
+      width: 450px !important;
      height: 320px !important;
      margin-top: 40px !important;
   }
   .s7{
-      margin-left: 120px !important;
-      width: 550px !important;
+      margin-left: 80px !important;
+      width: 450px !important;
       height: 300px !important;   
   }
   .icon8{
@@ -730,7 +734,11 @@ text-align: center;
     .icon9{
       display: none;
    }
-   
+   .image{
+    width: 450px !important;
+    height: 300px !important;
+    margin-left: -12px !important;
+  }
 
  }
  @media screen  and (max-width:540px){
@@ -795,6 +803,11 @@ text-align: center;
   .icon10{
     display: none;
   }
+  .image{
+    width: 390px !important;
+    height: 300px !important;
+    margin-left: -12px !important;
+  }
 }
 @media screen and (max-width:425px){
   .s{
@@ -828,7 +841,14 @@ text-align: center;
   }
 
 }
+@media screen  and (max-width:415px){
+.image{
+  width: 350px !important;
+  height: 300px !important;
+  margin-left: -12px !important;
+}
 
+}
  @media screen  and (max-width:435px){
   .s{
      margin-left: 20px !important;
@@ -891,7 +911,11 @@ text-align: center;
   .t{
     margin-left:35px !important;
   }
-  
+  .image{
+    width: 390px !important;
+    height: 300px !important;
+    margin-left: -12px !important;
+  }
 
 .icon8{
   display: none !important;
@@ -929,8 +953,8 @@ text-align: center;
   .s4{
       margin-left:0px !important;
       width: 390px !important;
-     height: 300px !important;
-     margin-top: 40px !important;
+      height: 300px !important;
+      margin-top: 40px !important;
   }
   .s5{
       margin-left:0px !important;
@@ -966,7 +990,18 @@ text-align: center;
   .t{
     margin-left:35px !important;
   }
-
+  .image{
+    width: 390px !important;
+    height: 300px !important;
+    margin-left: -12px !important;
+  }
+}
+@media screen  and (max-width:365px){
+.image{
+  width: 360px !important;
+  height: 300px !important;
+  margin-left: -12px !important;
+}
 }
 @media screen  and (max-width:320px){
   .bu{
